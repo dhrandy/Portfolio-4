@@ -48,6 +48,7 @@ ul {
   transform: translate(-50%, -50%);
   color: white;
 }
+
 #name {
   font-family: "Roboto", sans-serif;
   font-size: 85px;
@@ -107,6 +108,7 @@ a:active {
   font-size: 30px;
   letter-spacing: 1px;
 }
+
 #about,
 #portfolio,
 #contact {
@@ -132,7 +134,7 @@ section {
   text-align: center;
 }
 
-#laptop-image {
+.laptop-image {
   width: 600px;
 }
 
@@ -141,6 +143,7 @@ section {
 .bold {
   font-weight: bold;
 }
+
 .box-about-right .bold {
   padding-bottom: 20px;
   font-size: 20px;
@@ -174,6 +177,7 @@ section {
   display: flex;
   justify-content: center;
 }
+
 .container-item-1 {
   display: flex;
 }
@@ -256,6 +260,11 @@ section {
   margin: 10px;
   margin-bottom: 14px;
 }
+
+/* .button-1{
+  opacity: 0;
+  transition: 0.5s ease;
+} */
 
 .portfolio-item-1:hover .overlay,
 .portfolio-item-2:hover .overlay,
@@ -346,6 +355,7 @@ section {
   text-align: center;
   font-family: "Roboto", sans-serif;
 }
+
 input,
 textarea {
   font-family: "Open Sans", sans-serif;
@@ -393,15 +403,25 @@ fieldset {
   font-size: 16px;
   border-radius: 40px;
   /* margin: 4px 2px; */
-  -webkit-transition-duration: 0.4s; /* Safari */
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
   transition-duration: 0.4s;
   cursor: pointer;
   position: absolute;
   top: 65%;
-  left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+}
+
+.button-code {
+  left: 37%;
+  padding: 10px 15px;
+}
+
+.button-site {
+  left: 63%;
+  padding: 10px 20px;
 }
 
 .button1 {
@@ -414,6 +434,11 @@ fieldset {
   background-color: #8c43ff;
   color: white;
 }
+
+/* .button1 {
+  opacity: 1;
+  transition: 0.5s ease;
+} */
 
 /* Footer Section */
 
@@ -499,4 +524,111 @@ a:-webkit-any-link {
 
 @media only screen and (max-width: 767px) {
 
+  #name {
+    font-size: 3.5em;
+    line-height: 48px;
+  }
+
+  #name-description {
+    font-size: 37px;
+    line-height: 34px;
+  }
+
+  #me-image-header {
+    margin: 7px;
+  }
+
+  /* Navigation */
+  nav ul .link {
+    width: auto;
+    padding: 3px;
+  }
+
+  /* Portfolio */
+  .portfolio-container {
+    flex-direction: column;
+  }
+
+  .portfolio-image {
+    width: 280px;;
+  }
+  .portfolio-item-1, .portfolio-item-2, .portfolio-item-3, .portfolio-item-4, .portfolio-item-5, .portfolio-item-6 {
+    align-self: center;
+}
+
+  /* Hobbies */
+
+  .hobbies-container {
+    flex-direction: column;
+  }
+
+  .image-hobbies {
+    width: 300px;
+  }
+
+  .hobbies-items {
+    width: 300px;
+    align-self: center;
+  }
+
+
+
+  /* Laptop */
+
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Contact */
+
+  input,
+  textarea {
+    width: 60%;
+    margin: 10px auto 10px auto;
+  }
+
+  .container-form {
+    width: auto;
+  }
+
+  fieldset {
+    text-align: center;
+  }
+
+  .submit {
+    margin: auto !important;
+  }
+
+
+  /* About */
+  .container-about {
+    flex-direction: column;
+  }
+
+  #image-about {
+    margin: auto;
+    width: 15em;
+  }
+
+  .container-about div {
+    width: auto;
+    /* padding: 20px; */
+  }
+
+  /* Knowledge */
+  .container-knowledge {
+    flex-direction: column;
+  }
+
+  .container-item-1-1 div,
+  .container-item-2-2 div {
+    padding: 3px;
+  }
+
+  .container-item-1,
+  .container-item-2 {
+    width: auto;
+    justify-content: center;
+  }
 }
