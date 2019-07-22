@@ -230,6 +230,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .portfolio-image {
@@ -287,6 +288,7 @@ section {
   display: flex;
   justify-content: center;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .hobbies-items {
@@ -563,11 +565,12 @@ a:-webkit-any-link {
   }
 
   .image-hobbies {
-    width: 300px;
+    width: 250px;
+    margin-bottom: 15px;
   }
 
   .hobbies-items {
-    width: 300px;
+    /* width: 250px; */
     align-self: center;
   }
 
