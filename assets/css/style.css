@@ -717,6 +717,12 @@ a:-webkit-any-link {
     width: auto;
     justify-content: center;
   }
+
+  /* Footer */
+#footer-section {
+  font-size: 10px;
+}
+
 }
 
 @media only screen and (min-width: 1500px) {
