@@ -76,7 +76,7 @@ hr {
 
 .topnav {
   overflow: hidden;
-/*  background-color: #333; */
+  /*  background-color: #333; */
 }
 
 .topnav a {
@@ -91,7 +91,7 @@ hr {
 
 .topnav a:hover {
   /* background-color: #ddd; */
-  color: white;
+  color: lightsalmon;
 }
 
 /* .topnav a.active {
@@ -104,9 +104,8 @@ hr {
 }
 
 .center {
-text-align: center;
+  text-align: center;
 }
-
 
 /* nav .container-link {
   list-style: none;
@@ -305,11 +304,6 @@ section {
   margin-bottom: 14px;
 }
 
-/* .button-1{
-  opacity: 0;
-  transition: 0.5s ease;
-} */
-
 .portfolio-item-1:hover .overlay,
 .portfolio-item-2:hover .overlay,
 .portfolio-item-3:hover .overlay,
@@ -317,12 +311,6 @@ section {
 .portfolio-item-5:hover .overlay,
 .portfolio-item-6:hover .overlay {
   opacity: 1;
-}
-
-.portfolio-info,
-.portfolio-info a {
-  padding-bottom: 30px;
-  /* text-decoration: none; */
 }
 
 /* Hobbies */
@@ -386,7 +374,9 @@ section {
   width: 82%;
 }
 
-.hobbies-description {
+.hobbies-description,
+.portfolio-description,
+.contact-description {
   padding-bottom: 50px;
 }
 
@@ -456,13 +446,17 @@ fieldset {
   display: inline-block;
   font-size: 16px;
   border-radius: 40px;
-  /* margin: 4px 2px; */
-  -webkit-transition-duration: 0.4s;
-  /* Safari */
   transition-duration: 0.4s;
-  cursor: pointer;
+  /* margin: 4px 2px; */
+}
+
+.button-position {
   position: absolute;
   top: 65%;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+
+  cursor: pointer;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -478,15 +472,19 @@ fieldset {
   padding: 10px 20px;
 }
 
-.button1 {
+.button-border {
   background-color: transparent;
   color: white;
   border: 2px solid #8c43ff;
 }
 
-.button1:hover {
+.button-border:hover {
   background-color: #8c43ff;
   color: white;
+}
+
+.button-about {
+  margin-top: 20px;
 }
 
 /* .button1 {
@@ -583,7 +581,6 @@ a:-webkit-any-link {
 } */
 
 @media only screen and (max-width: 768px) {
-
   .hero-text {
     width: unset;
   }
@@ -601,17 +598,6 @@ a:-webkit-any-link {
   #me-image-header {
     margin-bottom: 15px;
   }
-
-  /* Navigation */
-  /* nav ul .link {
-    width: auto;
-    padding: 3px;
-  } */
-
-  /* Portfolio */
-  /* .portfolio-container {
-    flex-direction: column;
-  } */
 
   .portfolio-image {
     width: 285px;
@@ -631,17 +617,29 @@ a:-webkit-any-link {
   .meet-description,
   .knowledge-description {
     width: 630px;
-    margin: auto;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+  /* Button */
+  .button-code {
+    left: 34%;
+    padding: 10px 15px;
+  }
+
+  .button-site {
+    left: 66%;
+    padding: 10px 20px;
+  }
+
+  .button-about {
+    margin-left: 20px;
   }
 
   /* Hobbies */
   .text-hobbies {
     width: 85%;
   }
-
-  /* .hobbies-container {
-    flex-direction: column;
-  } */
 
   .image-hobbies {
     width: 250px;
@@ -680,7 +678,6 @@ a:-webkit-any-link {
     margin: auto !important;
   }
 
-
   /* About */
   .container-about {
     flex-direction: column;
@@ -717,7 +714,7 @@ a:-webkit-any-link {
   .portfolio-container {
     width: 1500px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
   }
 
   .topnav a {
@@ -731,7 +728,6 @@ a:-webkit-any-link {
 }
 
 @media only screen and (max-width: 670px) {
-
   .portfolio-description,
   .about-description,
   .meet-description,
@@ -756,10 +752,16 @@ a:-webkit-any-link {
     display: block;
     text-align: left;
   }
+
+  .button-about {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a {display: none;}
+  .topnav a {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -767,7 +769,9 @@ a:-webkit-any-link {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive-nav {position: relative;}
+  .topnav.responsive-nav {
+    position: relative;
+  }
   .topnav.responsive-nav .icon {
     position: absolute;
     right: 0;
@@ -790,8 +794,4 @@ a:-webkit-any-link {
   .topnav a {
     font-size: 12px;
   }
-
-  /* nav ul .link {
-    padding: 3px;
-} */
 }
