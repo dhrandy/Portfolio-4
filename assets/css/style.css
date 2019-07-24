@@ -313,6 +313,10 @@ section {
   opacity: 1;
 }
 
+/* .github-icon {
+  margin: 20px;
+} */
+
 /* Hobbies */
 
 .hobbies-container {
@@ -788,6 +792,17 @@ a:-webkit-any-link {
   .topnav.responsive-nav a {
     display: block;
   }
+}
+
+@media screen and (max-width: 450px) {
+  .github-icon {
+    margin-top: 20px;
+  }
+
+  .portfolio-description {
+    padding-bottom: 20px;
+  }
+
 }
 
 
