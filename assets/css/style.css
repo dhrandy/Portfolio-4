@@ -559,6 +559,11 @@ a:-webkit-any-link {
   color: white;
 }
 
+.fa-instagram {
+  background: linear-gradient(#b433a9, #fcad48);
+  color: white;
+}
+
 .fab:hover {
   opacity: 0.7;
   color: lightslategray;
