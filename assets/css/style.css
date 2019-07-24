@@ -728,6 +728,7 @@ a:-webkit-any-link {
 }
 
 @media only screen and (max-width: 670px) {
+
   .portfolio-description,
   .about-description,
   .meet-description,
@@ -763,25 +764,27 @@ a:-webkit-any-link {
   .topnav a {
     display: none;
   }
+
   .topnav a.icon {
     float: right;
     display: block;
   }
-}
 
-@media screen and (max-width: 600px) {
   .topnav.responsive-nav {
     position: relative;
   }
+
   .topnav.responsive-nav .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
+
   .topnav.responsive-nav a {
     display: block;
   }
 }
+
 
 @media only screen and (max-width: 360px) {
   .portfolio-image {
