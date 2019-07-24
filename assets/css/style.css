@@ -755,6 +755,7 @@ a:-webkit-any-link {
 
   .button-about {
     text-align: center;
+    margin-left: unset;
   }
 }
 
