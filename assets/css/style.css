@@ -8,10 +8,10 @@ html {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-ul {
+/* ul {
   margin: 0;
   padding: 0;
-}
+} */
 
 .center {
   text-align: center;
@@ -46,7 +46,6 @@ ul {
   border-radius: 50%;
   display: block;
   border: solid 6px white;
-  /* margin: 0; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -97,12 +96,7 @@ hr {
   color: lightsalmon;
 }
 
-/* .topnav a.active {
-  background-color: #4CAF50;
-  color: black;
-}
-*/
-.topnav .icon {
+*/ .topnav .icon {
   display: none;
 }
 
@@ -138,8 +132,6 @@ nav ul .link {
 */
 /* Sections */
 .title h1 {
-  /* padding-top: 30px;
-  */
   padding-bottom: 30px;
   text-align: center;
   font-size: 30px;
@@ -252,8 +244,6 @@ section {
   margin-top: auto;
   margin-bottom: auto;
   order: 1;
-  /* text-align: center;
-  */
 }
 
 .knowledge {
@@ -306,10 +296,6 @@ section {
   opacity: 1;
 }
 
-/* .github-icon {
-  margin: 20px;
-}
-*/
 /* Hobbies */
 .hobbies-container {
   display: flex;
@@ -440,8 +426,6 @@ fieldset {
   font-size: 16px;
   border-radius: 40px;
   transition-duration: 0.4s;
-  /* margin: 4px 2px;
-  */
 }
 
 .button-position {
@@ -484,8 +468,6 @@ fieldset {
 #footer-section {
   text-align: center;
   font-size: 14px;
-  /* height: 200px;
-  */
   background-color: black;
   color: white;
   padding: 20px 0 20px 0;
@@ -596,7 +578,8 @@ a:-webkit-any-link {
   .portfolio-item-3,
   .portfolio-item-4,
   .portfolio-item-5,
-  .portfolio-item-6 {
+  .portfolio-item-6,
+  .hobbies-items {
     align-self: center;
   }
 
@@ -632,12 +615,6 @@ a:-webkit-any-link {
   .image-hobbies {
     width: 250px;
     margin-bottom: 15px;
-  }
-
-  .hobbies-items {
-    /* width: 250px;
-      */
-    align-self: center;
   }
 
   /* Laptop */
