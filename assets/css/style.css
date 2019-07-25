@@ -797,3 +797,18 @@ a:-webkit-any-link {
     font-size: 12px;
   }
 }
+
+/* Fix for smaller screens in portrait mode */
+@media (max-height: 380px) and (max-width: 815px) {
+
+
+  .topnav a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .hero-image {
+    height: 600px;
+  }
+
+}
