@@ -17,16 +17,27 @@ ul {
   text-align: center;
 }
 
+#name,
+.topnav a,
+.knowledge,
+.text-hobbies,
+.text {
+  font-family: "Roboto", sans-serif;
+}
+
+#name-description,
+.title h1 {
+  font-family: "Roboto Slab", serif;
+}
+
 /* header */
 .hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("../imgs/bg.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url("../imgs/bg.jpg");
   height: 85%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  /* margin-top: 115px; */
 }
 
 /* Picture of me */
@@ -35,7 +46,7 @@ ul {
   border-radius: 50%;
   display: block;
   border: solid 6px white;
-  margin: 0;
+  /* margin: 0; */
   margin-left: auto;
   margin-right: auto;
 }
@@ -51,13 +62,11 @@ ul {
 }
 
 #name {
-  font-family: "Roboto", sans-serif;
   font-size: 85px;
   margin-bottom: 25px;
 }
 
 #name-description {
-  font-family: "Roboto Slab", serif;
   font-size: 50px;
   padding-top: 10px;
 }
@@ -69,14 +78,8 @@ hr {
 }
 
 /* navigation */
-/* body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-} */
-
 .topnav {
   overflow: hidden;
-  /*  background-color: #333; */
 }
 
 .topnav a {
@@ -86,19 +89,19 @@ hr {
   padding: 14px 25px;
   text-decoration: none;
   font-size: 17px;
-  font-family: "Roboto", sans-serif;
 }
 
 .topnav a:hover {
-  /* background-color: #ddd; */
+  /* background-color: #ddd;
+  */
   color: lightsalmon;
 }
 
 /* .topnav a.active {
   background-color: #4CAF50;
   color: black;
-} */
-
+}
+*/
 .topnav .icon {
   display: none;
 }
@@ -116,35 +119,27 @@ hr {
   flex-direction: row;
   text-align: center;
 }
-
 nav ul .link {
-  /*font-family: "Roboto", sans-serif;
+ /*font-family: "Roboto", sans-serif;
   width: 300px;
   padding: 20px;
-  
   width: 80%;
   margin: 15px auto;
 }
-
-.link a:link,
-a:visited,
-a:hover,
-a:active {
+.link a:link, a:visited, a:hover, a:active {
   text-decoration: none;
 }
-
 .link a {
   color: white;
 }
-
 .link a:hover {
   color: darkgray;
-} */
-
+}
+*/
 /* Sections */
 .title h1 {
-  /* padding-top: 30px; */
-  font-family: "Roboto Slab", serif;
+  /* padding-top: 30px;
+  */
   padding-bottom: 30px;
   text-align: center;
   font-size: 30px;
@@ -181,7 +176,6 @@ section {
 }
 
 /* About Section */
-
 .bold {
   font-weight: bold;
 }
@@ -258,16 +252,15 @@ section {
   margin-top: auto;
   margin-bottom: auto;
   order: 1;
-  /* text-align: center; */
+  /* text-align: center;
+  */
 }
 
 .knowledge {
   padding-bottom: 20px;
-  font-family: "Roboto", sans-serif;
 }
 
 /* Portfolio */
-
 .portfolio-container {
   display: flex;
   flex-direction: row;
@@ -315,10 +308,9 @@ section {
 
 /* .github-icon {
   margin: 20px;
-} */
-
+}
+*/
 /* Hobbies */
-
 .hobbies-container {
   display: flex;
   justify-content: center;
@@ -369,7 +361,6 @@ section {
   top: 50%;
   left: 50%;
   text-align: center;
-  font-family: "Roboto", sans-serif;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -390,7 +381,6 @@ section {
 }
 
 /* Contact */
-
 .text {
   color: white;
   font-size: 20px;
@@ -401,7 +391,6 @@ section {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  font-family: "Roboto", sans-serif;
 }
 
 input,
@@ -425,6 +414,7 @@ fieldset {
 
 .submit {
   border: none;
+  -webkit-appearance: none;
 }
 
 .container-form {
@@ -439,7 +429,6 @@ fieldset {
 }
 
 /* button */
-
 .button {
   background-color: #8c43ff;
   border: none;
@@ -451,7 +440,8 @@ fieldset {
   font-size: 16px;
   border-radius: 40px;
   transition-duration: 0.4s;
-  /* margin: 4px 2px; */
+  /* margin: 4px 2px;
+  */
 }
 
 .button-position {
@@ -459,7 +449,6 @@ fieldset {
   top: 65%;
   -webkit-transition-duration: 0.4s;
   /* Safari */
-
   cursor: pointer;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -491,17 +480,12 @@ fieldset {
   margin-top: 20px;
 }
 
-/* .button1 {
-  opacity: 1;
-  transition: 0.5s ease;
-} */
-
 /* Footer Section */
-
 #footer-section {
   text-align: center;
   font-size: 14px;
-  /* height: 200px; */
+  /* height: 200px;
+  */
   background-color: black;
   color: white;
   padding: 20px 0 20px 0;
@@ -543,6 +527,7 @@ a:-webkit-any-link {
   border-radius: 50%;
 }
 
+/* Social Icons */
 .fa-facebook-f {
   background: #3b5998;
   color: white;
@@ -582,12 +567,6 @@ a:-webkit-any-link {
 .github-link {
   color: #8c43ff;
 }
-
-/* @media only screen and (max-width: 930px) {
-  #name {
-    font-size: 65px;
-  }
-} */
 
 @media only screen and (max-width: 768px) {
   .hero-text {
@@ -630,7 +609,7 @@ a:-webkit-any-link {
     margin-left: 20px;
   }
 
-  /* Button */
+  /* Knowledge Button */
   .button-code {
     left: 34%;
     padding: 10px 15px;
@@ -656,19 +635,18 @@ a:-webkit-any-link {
   }
 
   .hobbies-items {
-    /* width: 250px; */
+    /* width: 250px;
+      */
     align-self: center;
   }
 
   /* Laptop */
-
   .responsive {
     width: 85%;
     height: auto;
   }
 
   /* Contact */
-
   input,
   textarea {
     width: 60%;
@@ -699,7 +677,6 @@ a:-webkit-any-link {
 
   .container-about div {
     width: auto;
-    /* padding: 20px; */
   }
 
   /* Knowledge */
@@ -722,9 +699,9 @@ a:-webkit-any-link {
   #footer-section {
     font-size: 10px;
   }
-
 }
 
+/* For Wider Screen */
 @media only screen and (min-width: 1500px) {
   .portfolio-container {
     width: 1500px;
@@ -732,6 +709,7 @@ a:-webkit-any-link {
     margin-right: auto;
   }
 
+  /* Navbar */
   .topnav a {
     padding-right: 60px;
     padding-left: 60px;
@@ -769,13 +747,6 @@ a:-webkit-any-link {
     text-align: left;
   }
 
-  .button-about {
-    text-align: center;
-    margin-left: unset;
-  }
-}
-
-@media screen and (max-width: 600px) {
   .topnav a {
     display: none;
   }
@@ -785,18 +756,10 @@ a:-webkit-any-link {
     display: block;
   }
 
-  .topnav.responsive-nav {
-    position: relative;
-  }
-
-  .topnav.responsive-nav .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  .topnav.responsive-nav a {
-    display: block;
+  /* Resume Button */
+  .button-about {
+    text-align: center;
+    margin-left: unset;
   }
 }
 
@@ -808,9 +771,7 @@ a:-webkit-any-link {
   .portfolio-description {
     padding-bottom: 20px;
   }
-
 }
-
 
 @media only screen and (max-width: 360px) {
   .portfolio-image {
