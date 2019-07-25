@@ -101,32 +101,6 @@ hr {
   font-size: 27px;
 }
 
-/* nav .container-link {
-  list-style: none;
-  color: white;
-  display: flex;
-  justify-content: center;
-  height: 20px;
-  flex-direction: row;
-  text-align: center;
-}
-nav ul .link {
- /*font-family: "Roboto", sans-serif;
-  width: 300px;
-  padding: 20px;
-  width: 80%;
-  margin: 15px auto;
-}
-.link a:link, a:visited, a:hover, a:active {
-  text-decoration: none;
-}
-.link a {
-  color: white;
-}
-.link a:hover {
-  color: darkgray;
-}
-*/
 /* Sections */
 .title h1 {
   padding-bottom: 30px;
