@@ -1,3 +1,3 @@
 # Portfolio-4
 
-Keep checking back, this is my future portfolio page.
+This is the currenty code for my portfolio website. You can visit the site at https://www.randy-gentry.com.
