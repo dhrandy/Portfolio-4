@@ -257,6 +257,7 @@ section {
   border-radius: 9px;
   margin: 10px;
   margin-bottom: 14px;
+  cursor: pointer;
 }
 
 .portfolio-item-1:hover .overlay,
